@@ -1,7 +1,7 @@
 Flask==3.0.0
 keras==2.11.0
 nltk==3.8.1
-numpy==1.22.2
+numpy==1.23.0
 sacremoses
 sentencepiece
 spacy==3.7.2
