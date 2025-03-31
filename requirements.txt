@@ -9,5 +9,6 @@ spacy==3.7.2
 spacy-langdetect==0.1.2
 spacy-legacy==3.0.12
 spacy-loggers==1.0.5
+torch==2.1.0 
 transformers==4.35.2
 gunicorn  # Needed for Render deployment
