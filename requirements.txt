@@ -1,7 +1,8 @@
 Flask==3.0.0
-keras==2.11.0
+tensorflow==2.12.0  # Added TensorFlow (compatible with Keras 2.12.0)
+keras==2.12.0
 nltk==3.8.1
-numpy==1.23.0
+numpy==1.23.5
 sacremoses
 sentencepiece
 spacy==3.7.2
@@ -9,5 +10,4 @@ spacy-langdetect==0.1.2
 spacy-legacy==3.0.12
 spacy-loggers==1.0.5
 transformers==4.35.2
-gunicorn
-tensorflow
+gunicorn  # Needed for Render deployment
